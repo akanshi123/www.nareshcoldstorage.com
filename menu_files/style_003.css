@@ -1,0 +1,89 @@
+@charset "utf-8";
+#main-menu > ul > li > a:hover, #main-menu > ul > li:hover > a, #main-menu > ul > li.current_page_item > a, ul.side-nav > li.current_page_item > a:hover, ul.side-nav > li > ul > li.current_page_item > a:hover, ul.side-nav > li > ul > li > ul > li.current_page_item > a:hover {
+    background: #F60800;
+    -webkit-opacity:0.9;
+    opacity:0.9;
+    color:#FFF;
+}
+#main-menu > ul > li > a, #main-menu > ul > li > a, #main-menu > ul > li.current_page_item > a, ul.side-nav > li.current_page_item > a, ul.side-nav > li > ul > li.current_page_item > a, ul.side-nav > li > ul > li > ul > li.current_page_item > a {
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+#main-menu > ul > li > a::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+#main-menu > ul > li > a:hover {}
+
+#main-menu > ul > li > a:hover::after {width: 100%;}
+
+.megamenu-child-container ul.sub-menu > li > ul li.current_page_item a, .megamenu-child-container ul.sub-menu > li > ul li.current_page_ancestor a, .megamenu-child-container ul.sub-menu > li > ul li.current-menu-item a, .megamenu-child-container ul.sub-menu > li > ul li.current-menu-ancestor a, #main-menu ul li.menu-item-simple-parent ul li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li.current_page_ancestor > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-item > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-ancestor > a {
+    color: #0facce;
+}
+.border-title span, .dt-sc-button:after, .dt-sc-team .dt-sc-social-icons li a:after, .dt-sc-button.filled, .dt-sc-bar, .ajax-controls .ajax-close:hover, .portfolio .fig-overlay a:after, .entry-meta .entry_format, .dt-sc-contact-info span, .social-icons li a:after, #footer .copyright, .widget h3.widgettitle span, .dt-sc-ico-content.type2 .icon span, .dt-sc-ico-content.type7 .icon, h5.dt-sc-toggle.active:before, h5.dt-sc-toggle-accordion.active:before, .dt-sc-callout-box.type4, .dt-sc-titled-box h6.dt-sc-titled-box-title, .dt-sc-pr-tb-col.selected .dt-sc-tb-header .dt-sc-price, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button:after, /*th,*/ .dt-sc-ico-content.type3 .icon:after, .dt-sc-ico-content.type5 .icon, .dt-sc-ico-content.type9 .icon, .dt-sc-ico-content.type8:hover .icon, .megamenu-child-container > ul.sub-menu > li > a:hover, .dt-sc-ico-content.type3 .icon, .dt-sc-callout-box.type1 .icon, .pagination ul li a:after, .pagination .next-post a:after, .pagination .prev-post a:after, .pagination ul li.active-page, .dt-sc-sorting-container a:after, .dt-sc-sorting-container a.active-sort, ul.commentlist li .reply a.comment-reply-link:after, .dt-sc-callout-box.type5 .icon, .dt-sc-callout-box.type2:hover .icon, .dt-sc-callout-box.type3:hover .icon, .dt-sc-callout-box.type1 .dt-sc-button, .dt-sc-callout-box.type5 .dt-sc-button, .bx-controls a.bx-prev:hover, .bx-controls a.bx-next:hover, .widget .tagcloud a:after, .widget.flickrbox .flickr-widget div, .sticky .featured-post, .featured-post, .mean-container a.meanmenu-reveal, .page-link span, ul.side-nav li a:hover:before, ul.side-nav > li.current_page_item > a:before, ul.side-nav > li > ul > li.current_page_item > a:before, ul.side-nav > li > ul > li > ul > li.current_page_item > a:before {
+    position: absolute;
+    z-index: 99999;
+    color: #F60800;;
+    -webkit-border-radius:6px;
+    border-radius:0px;
+    text-align: center !important;
+    -moz-opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -ms-opacity: 0.9;
+    opacity: 0.9;
+}
+.mean-container .mean-nav {
+    color: #4895E1;
+    -moz-opacity: 0.95;
+    -webkit-opacity: 0.95;
+    -ms-opacity: 0.95;
+    opacity: 0.95;
+}
+ul.dt-sc-tabs-vertical-frame li a.current, .dt-sc-callout-box.type1, .dt-sc-callout-box.type3, #main-menu ul li.menu-item-simple-parent ul li ul {
+    border-left-color: #e3e3e3;
+}
+.dt-sc-button, .ajax-controls .ajax-close:hover, .portfolio .fig-overlay a:hover, .entry-meta .date, blockquote.type4, .dt-sc-pr-tb-col.selected, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button, .dt-sc-ico-content.type7 .icon, .dt-sc-ico-content.type2 .icon span, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .pagination ul li.active-page, .dt-sc-sorting-container a:hover, .dt-sc-sorting-container a.active-sort, ul.commentlist li .reply a.comment-reply-link, .dt-sc-callout-box.type1 .icon, .dt-sc-callout-box.type5 .icon, .dt-sc-testimonial:hover .author img, .widget .tagcloud a {
+    border-color: #0facce;
+}
+.dt-sc-pullquote5 {
+    border-left: 3px solid #0facce;
+}
+.dt-sc-pullquote6 {
+    border-top: 3px solid #0facce;
+}
+.entry-meta .entry_format, .mean-container .mean-nav ul li a.mean-expand:hover {
+    border-color: #0f8ea9;
+}
+.dt-sc-ico-content.type3 .icon {
+    box-shadow: 0 0 0 1px #0facce;
+}
+ul.products li:hover .product-container, .product .woocommerce-main-image img, .woocommerce-message .button, .woocommerce-error .button, .woocommerce-info .button {
+    border-color: #0facce;
+}
+.woocommerce-tabs ul.tabs li.active a {
+    border-top-color: #0facce;
+}
+ul.products li .product-details .add_to_cart_button, ul.products li .product-details-hover .add_to_cart_button, ul.products li .product-details .button, ul.products li .product-details-hover .button, ul.products li .product-details .dt-sc-button, ul.products li .product-details-hover .dt-sc-button, ul.products li .product-details-hover .yith-wcwl-add-to-wishlist a, .product .summary .add_to_wishlist:after, #reviews a.button:after, .woocommerce-message .button:after, .woocommerce-error .button:after, .woocommerce-info .button:after, .woocommerce table .button:after, .product.woocommerce .button:after, ul.products li .product-thumb .onsale, .single-product .product > .onsale {
+    background-color: #0facce;
+}
+.product .summary .add_to_wishlist:before, .woocommerce-message .button, .woocommerce-error .button, .woocommerce-info .button, ul.products li .product-details-hover h3 a:hover, .widget.widget_product_categories .product-categories li:hover span {
+    color: #0facce;
+}
+.members .pagination a, #buddypress div.item-list-tabs ul li a span, #buddypress div#subnav.item-list-tabs ul li a, #buddypress li span.unread-count, #buddypress tr.unread span.unread-count, #buddypress .activity-list li.load-more a, .pagination-links a, .widget.buddypress div.item-options a.selected {
+    color: #0facce;
+}
+.members .pagination a:after, .members .pagination span.current, .pagination-links a:after, .pagination-links span.current, #buddypress span.activity, #item-buttons .generic-button a:after, #buddypress div.item-list-tabs ul li a:hover span, #buddypress div.item-list-tabs#subnav ul li.selected a, #buddypress div.item-list-tabs#subnav ul li.current a, #buddypress div.item-list-tabs#subnav ul li a:after, #buddypress .activity-list li.load-more a:after, .bp-login-widget-register-link a {
+    background-color: #0facce;
+}
+.members .pagination a, .members .pagination span.current, .pagination-links a, .pagination-links span.current, #buddypress div.item-list-tabs ul li a span, #item-buttons .generic-button a, #buddypress div#subnav.item-list-tabs ul li a, #buddypress div.activity-meta a:hover, #buddypress li span.unread-count, #buddypress tr.unread span.unread-count, #buddypress .activity-list li.load-more a {
+    border-color: #0faccf;
+}
+#buddypress div.item-list-tabs ul li.selected a, #buddypress div.item-list-tabs ul li.current a {
+    border-top-color: #0facce;
+}

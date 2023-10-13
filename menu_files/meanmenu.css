@@ -1,0 +1,145 @@
+a.meanmenu-reveal {
+	display: none;
+}
+.mean-container .mean-bar {
+	z-index: 999;
+	position: relative;
+}
+.mean-container a.meanmenu-reveal {
+	width: 40px;
+	height: auto;
+	padding: 1px 0% 0px 0%;
+	position: absolute;
+	top: 0px;
+	left: auto !important;
+	right: 0 !important;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-indent: -9999em;
+	line-height: 22px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.mean-container a.meanmenu-reveal span {
+	width: 20px;
+	display: block;
+	background: #F60800;;
+	height: 3px;
+	margin:4px auto 0;
+}
+.mean-container .mean-nav {
+	float: left;
+	width: 105%;
+	background:#F60800;
+	position: absolute;
+	top:45px;
+	left: 0px;
+}
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 94%;
+	padding-left: 6%;
+	border-bottom: 1px dotted #a60202;
+}
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 92%;
+	padding: 4px 4%;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+	text-decoration: none;
+}
+.mean-container .mean-nav ul li li a {
+	/*width: 92%;
+	padding: 10px 4%;*/
+	text-shadow: none !important;
+	visibility: visible;
+}
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+	width: 100%;
+	/*padding: 1em 0%;*/
+}
+.mean-container .mean-nav ul li li li li a {
+/*	width: 60%;
+	padding: 1em 20%;*/
+	    padding: 0.5em 3%;
+    width: 61%;
+}
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover {
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	width: 95%;
+	height: 21px;
+	padding: 6px 2% !important;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	z-index: 2;
+	text-align: right;
+	font-weight: 700;
+	border: none !important;
+	border-left: 0px solid rgba(255,255,255,0.4) !important;
+	border-bottom: 0px solid rgba(255,255,255,0.2) !important;
+}
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.mean-nav .wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.mean-container .mean-bar, .mean-container .mean-bar * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.mean-remove {
+	display: none !important;
+}
+.mean-container .mean-nav ul li li span {
+	width: 80%;
+	padding: 1em 10%;
+	border-top: 1px solid #f1f1f1;
+	border-top: 1px solid rgba(255,255,255,0.25);
+	-moz-opacity: 0.75;
+	-webkit-opacity: 0.75;
+	opacity: 0.75;
+	text-shadow: none !important;
+	visibility: visible;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+.mean-container .mean-nav {
+	width:100%;
+}
+
+}
